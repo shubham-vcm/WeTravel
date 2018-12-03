@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51E4E4E221B5AE7A00BA28CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E4E4E121B5AE7A00BA28CC /* AppDelegate.m */; };
+		51E4E4E521B5AE7A00BA28CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E4E4E421B5AE7A00BA28CC /* ViewController.m */; };
+		51E4E4E821B5AE7A00BA28CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E4E4E621B5AE7A00BA28CC /* Main.storyboard */; };
+		51E4E4EB21B5AE7A00BA28CC /* WeTravel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51E4E4E921B5AE7A00BA28CC /* WeTravel.xcdatamodeld */; };
+		51E4E4ED21B5AE7A00BA28CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E4E4EC21B5AE7A00BA28CC /* Assets.xcassets */; };
+		51E4E4F021B5AE7A00BA28CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E4E4EE21B5AE7A00BA28CC /* LaunchScreen.storyboard */; };
+		51E4E4F321B5AE7A00BA28CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E4E4F221B5AE7A00BA28CC /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51E4E4DD21B5AE7A00BA28CC /* WeTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E4E4E021B5AE7A00BA28CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51E4E4E121B5AE7A00BA28CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51E4E4E321B5AE7A00BA28CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		51E4E4E421B5AE7A00BA28CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51E4E4E721B5AE7A00BA28CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51E4E4EA21B5AE7A00BA28CC /* WeTravel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeTravel.xcdatamodel; sourceTree = "<group>"; };
+		51E4E4EC21B5AE7A00BA28CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51E4E4EF21B5AE7A00BA28CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51E4E4F121B5AE7A00BA28CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E4E4F221B5AE7A00BA28CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51E4E4DA21B5AE7A00BA28CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51E4E4D421B5AE7A00BA28CC = {
+			isa = PBXGroup;
+			children = (
+				51E4E4DF21B5AE7A00BA28CC /* WeTravel */,
+				51E4E4DE21B5AE7A00BA28CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51E4E4DE21B5AE7A00BA28CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51E4E4DD21B5AE7A00BA28CC /* WeTravel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51E4E4DF21B5AE7A00BA28CC /* WeTravel */ = {
+			isa = PBXGroup;
+			children = (
+				51E4E4E021B5AE7A00BA28CC /* AppDelegate.h */,
+				51E4E4E121B5AE7A00BA28CC /* AppDelegate.m */,
+				51E4E4E321B5AE7A00BA28CC /* ViewController.h */,
+				51E4E4E421B5AE7A00BA28CC /* ViewController.m */,
+				51E4E4E621B5AE7A00BA28CC /* Main.storyboard */,
+				51E4E4EC21B5AE7A00BA28CC /* Assets.xcassets */,
+				51E4E4EE21B5AE7A00BA28CC /* LaunchScreen.storyboard */,
+				51E4E4F121B5AE7A00BA28CC /* Info.plist */,
+				51E4E4F221B5AE7A00BA28CC /* main.m */,
+				51E4E4E921B5AE7A00BA28CC /* WeTravel.xcdatamodeld */,
+			);
+			path = WeTravel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51E4E4DC21B5AE7A00BA28CC /* WeTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E4E4F621B5AE7A00BA28CC /* Build configuration list for PBXNativeTarget "WeTravel" */;
+			buildPhases = (
+				51E4E4D921B5AE7A00BA28CC /* Sources */,
+				51E4E4DA21B5AE7A00BA28CC /* Frameworks */,
+				51E4E4DB21B5AE7A00BA28CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeTravel;
+			productName = WeTravel;
+			productReference = 51E4E4DD21B5AE7A00BA28CC /* WeTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51E4E4D521B5AE7A00BA28CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "TATA SIA AIRLINES LTD";
+				TargetAttributes = {
+					51E4E4DC21B5AE7A00BA28CC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 51E4E4D821B5AE7A00BA28CC /* Build configuration list for PBXProject "WeTravel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51E4E4D421B5AE7A00BA28CC;
+			productRefGroup = 51E4E4DE21B5AE7A00BA28CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51E4E4DC21B5AE7A00BA28CC /* WeTravel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51E4E4DB21B5AE7A00BA28CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E4E4F021B5AE7A00BA28CC /* LaunchScreen.storyboard in Resources */,
+				51E4E4ED21B5AE7A00BA28CC /* Assets.xcassets in Resources */,
+				51E4E4E821B5AE7A00BA28CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51E4E4D921B5AE7A00BA28CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E4E4E521B5AE7A00BA28CC /* ViewController.m in Sources */,
+				51E4E4EB21B5AE7A00BA28CC /* WeTravel.xcdatamodeld in Sources */,
+				51E4E4F321B5AE7A00BA28CC /* main.m in Sources */,
+				51E4E4E221B5AE7A00BA28CC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51E4E4E621B5AE7A00BA28CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E4E4E721B5AE7A00BA28CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51E4E4EE21B5AE7A00BA28CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E4E4EF21B5AE7A00BA28CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51E4E4F421B5AE7A00BA28CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51E4E4F521B5AE7A00BA28CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51E4E4F721B5AE7A00BA28CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WES68Y2X4;
+				INFOPLIST_FILE = WeTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vistara.WeTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51E4E4F821B5AE7A00BA28CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WES68Y2X4;
+				INFOPLIST_FILE = WeTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vistara.WeTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51E4E4D821B5AE7A00BA28CC /* Build configuration list for PBXProject "WeTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E4E4F421B5AE7A00BA28CC /* Debug */,
+				51E4E4F521B5AE7A00BA28CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E4E4F621B5AE7A00BA28CC /* Build configuration list for PBXNativeTarget "WeTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E4E4F721B5AE7A00BA28CC /* Debug */,
+				51E4E4F821B5AE7A00BA28CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		51E4E4E921B5AE7A00BA28CC /* WeTravel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				51E4E4EA21B5AE7A00BA28CC /* WeTravel.xcdatamodel */,
+			);
+			currentVersion = 51E4E4EA21B5AE7A00BA28CC /* WeTravel.xcdatamodel */;
+			path = WeTravel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 51E4E4D521B5AE7A00BA28CC /* Project object */;
+}
