@@ -1,42 +1,33 @@
 //
-//  ViewController.m
+//  ViewController6.m
 //  vistara
 //
-//  Created by Amrit Ghose on 11/11/18.
+//  Created by Amrit Ghose on 19/11/18.
 //  Copyright © 2018 Akanksha. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "ViewController2.h"
-@interface ViewController ()<NSXMLParserDelegate>
+#import "ViewController6.h"
 
+@interface ViewController6 ()
 @property (nonatomic, retain) NSMutableData* responseData;
 @property (nonatomic, retain) NSString* parserHeader;
-@property (nonatomic, retain) NSString* SequenceNumber;
-@property (nonatomic, retain) NSString* SecurityToken;
-@property (nonatomic, retain) NSString* SessionId;
 @end
 
-@implementation ViewController
+@implementation ViewController6
+@synthesize SequenceNumber,SecurityToken,SessionId;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self serviceForSecurity_Autjenticate];
-    //  [self ServiceforAir_MultiAvailibility];
-    
-}
-
--(void)serviceForSecurity_Autjenticate
-{
-    NSString * soapString = [NSString stringWithFormat:@"<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:wbs=\"http://xml.amadeus.com/ws/2009/01/WBS_Session-2.0.xsd\" xmlns:vls=\"http://xml.amadeus.com/VLSSLQ_06_1_1A\"><soapenv:Header><wbs:Session><wbs:SessionId></wbs:SessionId><wbs:SequenceNumber/><wbs:SecurityToken/></wbs:Session></soapenv:Header><soapenv:Body><vls:Security_Authenticate><vls:userIdentifier><vls:originIdentification><vls:sourceOffice>DELUK08DT</vls:sourceOffice></vls:originIdentification><vls:originatorTypeCode>U</vls:originatorTypeCode><vls:originator>111WS</vls:originator></vls:userIdentifier><vls:dutyCode><vls:dutyCodeDetails><vls:referenceQualifier>DUT</vls:referenceQualifier><vls:referenceIdentifier>SU</vls:referenceIdentifier></vls:dutyCodeDetails></vls:dutyCode><vls:systemDetails><vls:workstationId/><vls:organizationDetails><vls:organizationId>UK</vls:organizationId></vls:organizationDetails><vls:idQualifier/></vls:systemDetails><vls:passwordInfo><vls:dataLength>9</vls:dataLength><vls:dataType>E</vls:dataType><vls:binaryData>dmlzdGFyYTAy</vls:binaryData></vls:passwordInfo></vls:Security_Authenticate></soapenv:Body></soapenv:Envelope>"];
+    // Do any additional setup after loading the view.
+    NSString * soapString = [NSString stringWithFormat:@"<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"xmlns:wbs=\"http://xml.amadeus.com/ws/2009/01/WBS_Session-2.0.xsd\" xmlns:pnr=\"http://xml.amadeus.com/PNRADD_16_1_1A\"><soapenv:Header><wbs:Session><wbs:SessionId>%@</wbs:SessionId><wbs:SequenceNumber>%@</wbs:SequenceNumber><wbs:SecurityToken>%@</wbs:SecurityToken></wbs:Session></soapenv:Header><soapenv:Body><PNR_AddMultiElements><pnrActions><optionCode>11</optionCode></pnrActions><dataElementsMaster><marker1/><dataElementsIndiv><elementManagementData><segmentName>RF</segmentName></elementManagementData><freetextData><freetextDetail><subjectQualifier>3</subjectQualifier><type>P22</type></freetextDetail><longFreetext>RFADDED VIA GRMS PNRADD</longFreetext></freetextData></dataElementsIndiv></dataElementsMaster></PNR_AddMultiElements></soapenv:Body></soapenv:Envelope>",self.SessionId,self.SequenceNumber,self.SecurityToken ];
     
     
-    //  NSLog(@"soapString %@",soapString);
+    NSLog(@"soapString 6====%@",soapString);
     
     NSString *msgLength = [NSString stringWithFormat:@"%li", [soapString length]];
     
-    NSString *urlString = [NSString stringWithFormat: @"https://nodeA1.test.webservices.amadeus.com"];
+    NSString *urlString = [NSString stringWithFormat: @"https://nodeA1.test.webservices.amadeus.com/"];
     
     NSURL *url = [NSURL URLWithString:urlString];
     
@@ -44,7 +35,7 @@
     
     [req addValue:@"application/soap+xml; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
     [req addValue:msgLength forHTTPHeaderField:@"Content-Length"];
-    [req addValue:@"http://webservices.amadeus.com/1ASIWGRPUK/VLSSLQ_06_1_1A" forHTTPHeaderField:@"SOAPAction"];
+    [req addValue:@"http://webservices.amadeus.com/1ASIWGRPUK/PNRADD_15_1_1A" forHTTPHeaderField:@"SOAPAction"];
     [req setHTTPMethod:@"POST"];
     [req setHTTPBody: [soapString dataUsingEncoding:NSUTF8StringEncoding]];
     
@@ -52,22 +43,12 @@
     NSOperationQueue *queue = [[NSOperationQueue alloc]init];
     [NSURLConnection sendAsynchronousRequest:req queue:queue completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
         if (connectionError) {
-            NSLog(@"error %@",connectionError);
+            NSLog(@"error6 %@",connectionError);
         }else{
-            NSLog(@"data %@",[[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding]);
+            NSLog(@"data 6===== %@",[[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding]);
         }
         
-        
-        
-        
-        NSString *responseString = [[NSString alloc] initWithData: data encoding:NSUTF8StringEncoding];
-        NSLog(@"respose%@",responseString);
-        NSError *error = nil;
-        NSData *jsonData = [responseString dataUsingEncoding:NSUTF8StringEncoding];
-        NSDictionary *JSON = [NSJSONSerialization JSONObjectWithData:jsonData options: NSJSONReadingMutableContainers error: &error];
         NSXMLParser *xmlparsing = [[NSXMLParser alloc] initWithData:data];
-        NSLog(@"jsonData ====%@",JSON);
-        NSLog(@"xmlparsing =====%@",xmlparsing);
         [xmlparsing setDelegate:(id)self];
         BOOL STATUS = [xmlparsing parse];
         
@@ -100,10 +81,11 @@
 - (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict
 {
     self.parserHeader = elementName;
-    NSLog(@"elementName is here %@",elementName);
-    NSLog(@"attributeDict is here %@",attributeDict);
+//    NSLog(@"elementName is here %@",elementName);
+//    NSLog(@"attributeDict is here %@",attributeDict);
     
 }
+
 
 -(void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError
 {
@@ -116,13 +98,25 @@
     [TryAgainAlert show];
 }
 
+
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    if([segue.identifier isEqualToString:@"show2"]){
-        ViewController2 *controller = (ViewController2 *)segue.destinationViewController;
+    if([segue.identifier isEqualToString:@"show7"]){
+        ViewController6 *controller = (ViewController6 *)segue.destinationViewController;
         controller.SequenceNumber = self.SequenceNumber;
         controller.SessionId = self.SessionId;
         controller.SecurityToken = self.SecurityToken;
     }
 }
+
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

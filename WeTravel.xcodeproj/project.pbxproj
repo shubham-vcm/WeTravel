@@ -7,27 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27FE928C1036EB9B63E88529 /* libPods-WeTravel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CCE9D619264438C65BB841C /* libPods-WeTravel.a */; };
 		51E4E4E221B5AE7A00BA28CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E4E4E121B5AE7A00BA28CC /* AppDelegate.m */; };
 		51E4E4E521B5AE7A00BA28CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E4E4E421B5AE7A00BA28CC /* ViewController.m */; };
-		51E4E4E821B5AE7A00BA28CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E4E4E621B5AE7A00BA28CC /* Main.storyboard */; };
 		51E4E4EB21B5AE7A00BA28CC /* WeTravel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 51E4E4E921B5AE7A00BA28CC /* WeTravel.xcdatamodeld */; };
 		51E4E4ED21B5AE7A00BA28CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E4E4EC21B5AE7A00BA28CC /* Assets.xcassets */; };
 		51E4E4F021B5AE7A00BA28CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E4E4EE21B5AE7A00BA28CC /* LaunchScreen.storyboard */; };
 		51E4E4F321B5AE7A00BA28CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E4E4F221B5AE7A00BA28CC /* main.m */; };
+		DF5765B021B64087000BC323 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5765A221B64083000BC323 /* ViewController3.m */; };
+		DF5765B121B64087000BC323 /* ViewController7.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5765A521B64084000BC323 /* ViewController7.m */; };
+		DF5765B221B64087000BC323 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5765A621B64084000BC323 /* ViewController4.m */; };
+		DF5765B321B64087000BC323 /* ViewController8.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5765A821B64084000BC323 /* ViewController8.m */; };
+		DF5765B421B64087000BC323 /* ViewController5.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5765AB21B64085000BC323 /* ViewController5.m */; };
+		DF5765B521B64087000BC323 /* ViewController6.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5765AC21B64085000BC323 /* ViewController6.m */; };
+		DF5765B621B64087000BC323 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5765AF21B64086000BC323 /* ViewController2.m */; };
+		DF5765B821B64093000BC323 /* flightListingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5765B721B64093000BC323 /* flightListingCell.xib */; };
+		DF5765BA21B640F0000BC323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5765B921B640F0000BC323 /* Main.storyboard */; };
+		DF5765BD21B640FE000BC323 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF5765BC21B640FE000BC323 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		068E8982756FD6DF5CB712BB /* Pods-WeTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTravel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeTravel/Pods-WeTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		23532EAE42809D0DBDF442A3 /* Pods-WeTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeTravel.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeTravel/Pods-WeTravel.release.xcconfig"; sourceTree = "<group>"; };
+		3CCE9D619264438C65BB841C /* libPods-WeTravel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeTravel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E4E4DD21B5AE7A00BA28CC /* WeTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E4E4E021B5AE7A00BA28CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		51E4E4E121B5AE7A00BA28CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		51E4E4E321B5AE7A00BA28CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		51E4E4E421B5AE7A00BA28CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		51E4E4E721B5AE7A00BA28CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51E4E4EA21B5AE7A00BA28CC /* WeTravel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeTravel.xcdatamodel; sourceTree = "<group>"; };
 		51E4E4EC21B5AE7A00BA28CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51E4E4EF21B5AE7A00BA28CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51E4E4F121B5AE7A00BA28CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51E4E4F221B5AE7A00BA28CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF5765A221B64083000BC323 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		DF5765A321B64083000BC323 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		DF5765A421B64084000BC323 /* ViewController7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController7.h; sourceTree = "<group>"; };
+		DF5765A521B64084000BC323 /* ViewController7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController7.m; sourceTree = "<group>"; };
+		DF5765A621B64084000BC323 /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		DF5765A721B64084000BC323 /* ViewController8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController8.h; sourceTree = "<group>"; };
+		DF5765A821B64084000BC323 /* ViewController8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController8.m; sourceTree = "<group>"; };
+		DF5765A921B64085000BC323 /* ViewController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController6.h; sourceTree = "<group>"; };
+		DF5765AA21B64085000BC323 /* ViewController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController5.h; sourceTree = "<group>"; };
+		DF5765AB21B64085000BC323 /* ViewController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController5.m; sourceTree = "<group>"; };
+		DF5765AC21B64085000BC323 /* ViewController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController6.m; sourceTree = "<group>"; };
+		DF5765AD21B64085000BC323 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		DF5765AE21B64086000BC323 /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		DF5765AF21B64086000BC323 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		DF5765B721B64093000BC323 /* flightListingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = flightListingCell.xib; sourceTree = "<group>"; };
+		DF5765B921B640F0000BC323 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DF5765BB21B640F8000BC323 /* flightListingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flightListingCell.h; sourceTree = "<group>"; };
+		DF5765BC21B640FE000BC323 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +65,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27FE928C1036EB9B63E88529 /* libPods-WeTravel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42130A3FA7FE4D5C33E7D0C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				068E8982756FD6DF5CB712BB /* Pods-WeTravel.debug.xcconfig */,
+				23532EAE42809D0DBDF442A3 /* Pods-WeTravel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		51E4E4D421B5AE7A00BA28CC = {
 			isa = PBXGroup;
 			children = (
 				51E4E4DF21B5AE7A00BA28CC /* WeTravel */,
 				51E4E4DE21B5AE7A00BA28CC /* Products */,
+				42130A3FA7FE4D5C33E7D0C3 /* Pods */,
+				760094CDD790FC4CACDB7257 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,14 +106,39 @@
 				51E4E4E121B5AE7A00BA28CC /* AppDelegate.m */,
 				51E4E4E321B5AE7A00BA28CC /* ViewController.h */,
 				51E4E4E421B5AE7A00BA28CC /* ViewController.m */,
-				51E4E4E621B5AE7A00BA28CC /* Main.storyboard */,
+				DF5765BB21B640F8000BC323 /* flightListingCell.h */,
+				DF5765BC21B640FE000BC323 /* GoogleService-Info.plist */,
+				DF5765B721B64093000BC323 /* flightListingCell.xib */,
+				DF5765B921B640F0000BC323 /* Main.storyboard */,
 				51E4E4EC21B5AE7A00BA28CC /* Assets.xcassets */,
+				DF5765AD21B64085000BC323 /* ViewController2.h */,
+				DF5765AF21B64086000BC323 /* ViewController2.m */,
+				DF5765A321B64083000BC323 /* ViewController3.h */,
+				DF5765A221B64083000BC323 /* ViewController3.m */,
+				DF5765AE21B64086000BC323 /* ViewController4.h */,
+				DF5765A621B64084000BC323 /* ViewController4.m */,
+				DF5765AA21B64085000BC323 /* ViewController5.h */,
+				DF5765AB21B64085000BC323 /* ViewController5.m */,
+				DF5765A921B64085000BC323 /* ViewController6.h */,
+				DF5765AC21B64085000BC323 /* ViewController6.m */,
+				DF5765A421B64084000BC323 /* ViewController7.h */,
+				DF5765A521B64084000BC323 /* ViewController7.m */,
+				DF5765A721B64084000BC323 /* ViewController8.h */,
+				DF5765A821B64084000BC323 /* ViewController8.m */,
 				51E4E4EE21B5AE7A00BA28CC /* LaunchScreen.storyboard */,
 				51E4E4F121B5AE7A00BA28CC /* Info.plist */,
 				51E4E4F221B5AE7A00BA28CC /* main.m */,
 				51E4E4E921B5AE7A00BA28CC /* WeTravel.xcdatamodeld */,
 			);
 			path = WeTravel;
+			sourceTree = "<group>";
+		};
+		760094CDD790FC4CACDB7257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CCE9D619264438C65BB841C /* libPods-WeTravel.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +148,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51E4E4F621B5AE7A00BA28CC /* Build configuration list for PBXNativeTarget "WeTravel" */;
 			buildPhases = (
+				CC51C95A24C4892F1A4B38C7 /* [CP] Check Pods Manifest.lock */,
 				51E4E4D921B5AE7A00BA28CC /* Sources */,
 				51E4E4DA21B5AE7A00BA28CC /* Frameworks */,
 				51E4E4DB21B5AE7A00BA28CC /* Resources */,
@@ -134,11 +202,34 @@
 			files = (
 				51E4E4F021B5AE7A00BA28CC /* LaunchScreen.storyboard in Resources */,
 				51E4E4ED21B5AE7A00BA28CC /* Assets.xcassets in Resources */,
-				51E4E4E821B5AE7A00BA28CC /* Main.storyboard in Resources */,
+				DF5765BD21B640FE000BC323 /* GoogleService-Info.plist in Resources */,
+				DF5765B821B64093000BC323 /* flightListingCell.xib in Resources */,
+				DF5765BA21B640F0000BC323 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CC51C95A24C4892F1A4B38C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeTravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		51E4E4D921B5AE7A00BA28CC /* Sources */ = {
@@ -147,22 +238,21 @@
 			files = (
 				51E4E4E521B5AE7A00BA28CC /* ViewController.m in Sources */,
 				51E4E4EB21B5AE7A00BA28CC /* WeTravel.xcdatamodeld in Sources */,
+				DF5765B121B64087000BC323 /* ViewController7.m in Sources */,
+				DF5765B621B64087000BC323 /* ViewController2.m in Sources */,
+				DF5765B321B64087000BC323 /* ViewController8.m in Sources */,
 				51E4E4F321B5AE7A00BA28CC /* main.m in Sources */,
+				DF5765B521B64087000BC323 /* ViewController6.m in Sources */,
+				DF5765B421B64087000BC323 /* ViewController5.m in Sources */,
 				51E4E4E221B5AE7A00BA28CC /* AppDelegate.m in Sources */,
+				DF5765B221B64087000BC323 /* ViewController4.m in Sources */,
+				DF5765B021B64087000BC323 /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		51E4E4E621B5AE7A00BA28CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51E4E4E721B5AE7A00BA28CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		51E4E4EE21B5AE7A00BA28CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +370,7 @@
 		};
 		51E4E4F721B5AE7A00BA28CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068E8982756FD6DF5CB712BB /* Pods-WeTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,6 +385,7 @@
 		};
 		51E4E4F821B5AE7A00BA28CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23532EAE42809D0DBDF442A3 /* Pods-WeTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
