@@ -104,7 +104,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
             <connections>
-                <outlet property="_arrivalTime" destination="shj-mF-f0f" id="E3Q-r2-cpA"/>
+                <outlet property="_arrivalTime" destination="shj-mF-f0f" id="vxv-67-OwL"/>
                 <outlet property="_btnAvailability" destination="rog-DQ-A2g" id="Qao-Rv-Jrw"/>
                 <outlet property="_departureTime" destination="B2a-h2-xGc" id="YrQ-qs-Y1d"/>
                 <outlet property="_duration" destination="X1M-P2-Zfy" id="p4L-bR-EQX"/>

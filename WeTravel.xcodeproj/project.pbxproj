@@ -24,6 +24,7 @@
 		DF5765B821B64093000BC323 /* flightListingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5765B721B64093000BC323 /* flightListingCell.xib */; };
 		DF5765BA21B640F0000BC323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5765B921B640F0000BC323 /* Main.storyboard */; };
 		DF5765BD21B640FE000BC323 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF5765BC21B640FE000BC323 /* GoogleService-Info.plist */; };
+		DFEC148921B6899300D2DA84 /* flightListingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEC148821B6899200D2DA84 /* flightListingCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		DF5765B921B640F0000BC323 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DF5765BB21B640F8000BC323 /* flightListingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flightListingCell.h; sourceTree = "<group>"; };
 		DF5765BC21B640FE000BC323 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DFEC148821B6899200D2DA84 /* flightListingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flightListingCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				51E4E4E321B5AE7A00BA28CC /* ViewController.h */,
 				51E4E4E421B5AE7A00BA28CC /* ViewController.m */,
 				DF5765BB21B640F8000BC323 /* flightListingCell.h */,
+				DFEC148821B6899200D2DA84 /* flightListingCell.m */,
 				DF5765BC21B640FE000BC323 /* GoogleService-Info.plist */,
 				DF5765B721B64093000BC323 /* flightListingCell.xib */,
 				DF5765B921B640F0000BC323 /* Main.storyboard */,
@@ -238,6 +241,7 @@
 			files = (
 				51E4E4E521B5AE7A00BA28CC /* ViewController.m in Sources */,
 				51E4E4EB21B5AE7A00BA28CC /* WeTravel.xcdatamodeld in Sources */,
+				DFEC148921B6899300D2DA84 /* flightListingCell.m in Sources */,
 				DF5765B121B64087000BC323 /* ViewController7.m in Sources */,
 				DF5765B621B64087000BC323 /* ViewController2.m in Sources */,
 				DF5765B321B64087000BC323 /* ViewController8.m in Sources */,
@@ -408,7 +412,7 @@
 				51E4E4F521B5AE7A00BA28CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		51E4E4F621B5AE7A00BA28CC /* Build configuration list for PBXNativeTarget "WeTravel" */ = {
 			isa = XCConfigurationList;
@@ -417,7 +421,7 @@
 				51E4E4F821B5AE7A00BA28CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 
